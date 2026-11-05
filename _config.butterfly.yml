@@ -1,0 +1,39 @@
+# 仅保留稳定的基础配置；其余采用 Butterfly 主题默认值。
+nav:
+  logo:
+  display_title: true
+  fixed: false
+menu:
+  首页: / || fas fa-home
+  生活手帐: /archives/ || fas fa-book-open
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+index_img: false
+default_top_img: false
+post_default_top_img: false
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: both
+  default_cover:
+aside:
+  enable: true
+  position: right
+  card_author:
+    enable: false
+  card_announcement:
+    enable: false
+  card_recent_post:
+    enable: true
+  card_categories:
+    enable: true
+  card_tags:
+    enable: true
+  card_archives:
+    enable: true
+footer:
+  owner:
+    enable: false
+  custom_text: '记录生活，收藏回忆。'
